@@ -1,0 +1,21 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "nuxt": "^2.13.3",
+    "vue-loader": "^15.9.3",
+    "vuesax": "^4.0.1-alpha.23"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^2.0.0"
+  }
+}
